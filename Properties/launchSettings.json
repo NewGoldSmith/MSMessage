@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MSMessage": {
+      "commandName": "Project",
+      "commandLineArgs": "-c",
+      "nativeDebugging": false
+    }
+  }
+}
