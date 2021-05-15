@@ -5,12 +5,36 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <StartupObject>MSMessage.Program</StartupObject>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Form_config.cs" />
+    <Compile Remove="Form_config.Designer.cs" />
+    <Compile Remove="Form_Dummy.cs" />
+    <Compile Remove="Form_Dummy.Designer.cs" />
+    <Compile Remove="Form_help.cs" />
+    <Compile Remove="Form_help.Designer.cs" />
+    <Compile Remove="Form_main.cs" />
+    <Compile Remove="Form_main.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Form_config.resx" />
+    <EmbeddedResource Remove="Form_Dummy.resx" />
+    <EmbeddedResource Remove="Form_help.resx" />
+    <EmbeddedResource Remove="Form_main.resx" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
