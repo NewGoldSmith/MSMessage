@@ -72,7 +72,7 @@ namespace MSMessage
             // 
             // button_save
             // 
-            this.button_save.Location = new System.Drawing.Point(299, 212);
+            this.button_save.Location = new System.Drawing.Point(299, 163);
             this.button_save.Name = "button_save";
             this.button_save.Size = new System.Drawing.Size(42, 38);
             this.button_save.TabIndex = 3;
@@ -83,36 +83,40 @@ namespace MSMessage
             // label_X
             // 
             this.label_X.AutoSize = true;
+            this.label_X.Font = new System.Drawing.Font("ＭＳ ゴシック", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label_X.Location = new System.Drawing.Point(27, 180);
             this.label_X.Name = "label_X";
-            this.label_X.Size = new System.Drawing.Size(19, 19);
+            this.label_X.Size = new System.Drawing.Size(21, 21);
             this.label_X.TabIndex = 4;
             this.label_X.Text = "X";
             // 
             // label_Y
             // 
             this.label_Y.AutoSize = true;
-            this.label_Y.Location = new System.Drawing.Point(27, 212);
+            this.label_Y.Font = new System.Drawing.Font("ＭＳ ゴシック", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_Y.Location = new System.Drawing.Point(124, 180);
             this.label_Y.Name = "label_Y";
-            this.label_Y.Size = new System.Drawing.Size(19, 19);
+            this.label_Y.Size = new System.Drawing.Size(21, 21);
             this.label_Y.TabIndex = 5;
             this.label_Y.Text = "Y";
             // 
             // label_pos_X_number
             // 
             this.label_pos_X_number.AutoSize = true;
+            this.label_pos_X_number.Font = new System.Drawing.Font("ＭＳ ゴシック", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label_pos_X_number.Location = new System.Drawing.Point(62, 180);
             this.label_pos_X_number.Name = "label_pos_X_number";
-            this.label_pos_X_number.Size = new System.Drawing.Size(19, 19);
+            this.label_pos_X_number.Size = new System.Drawing.Size(21, 21);
             this.label_pos_X_number.TabIndex = 6;
             this.label_pos_X_number.Text = "0";
             // 
             // label_pos_Y_number
             // 
             this.label_pos_Y_number.AutoSize = true;
-            this.label_pos_Y_number.Location = new System.Drawing.Point(62, 212);
+            this.label_pos_Y_number.Font = new System.Drawing.Font("ＭＳ ゴシック", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_pos_Y_number.Location = new System.Drawing.Point(159, 180);
             this.label_pos_Y_number.Name = "label_pos_Y_number";
-            this.label_pos_Y_number.Size = new System.Drawing.Size(19, 19);
+            this.label_pos_Y_number.Size = new System.Drawing.Size(21, 21);
             this.label_pos_Y_number.TabIndex = 7;
             this.label_pos_Y_number.Text = "0";
             // 
@@ -122,7 +126,7 @@ namespace MSMessage
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(341, 252);
+            this.ClientSize = new System.Drawing.Size(341, 221);
             this.Controls.Add(this.label_pos_Y_number);
             this.Controls.Add(this.label_pos_X_number);
             this.Controls.Add(this.label_Y);

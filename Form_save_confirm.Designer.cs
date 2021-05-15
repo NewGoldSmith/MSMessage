@@ -129,6 +129,7 @@ namespace MSMessage
             this.Controls.Add(this.IDCHANCEL);
             this.Controls.Add(this.IDOK);
             this.Name = "Form_save_confirm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confirm";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -36,11 +36,12 @@ namespace MSMessage
             {
                 screen_point = this.Location;
             }
-            //ダイアログがモニターの範囲にあるか確認。なければ、近いモニターの真ん中に表示。
+            //ダイアログがモニターの範囲にあるか確認。なければ、プライマリーモニターの真ん中に表示。
             screen = Screen.FromPoint(screen_point);
             if (!screen.Bounds.Contains(screen_point))
             {
                 Rectangle rect_screen, rect_this;
+                screen = Screen.PrimaryScreen;
                 rect_this = this.Bounds;
                 rect_screen = screen.Bounds;
                 rect_screen.X += (rect_screen.Size.Width / 2) - (rect_this.Size.Width / 2);

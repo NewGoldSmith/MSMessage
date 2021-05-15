@@ -2,7 +2,7 @@
   "profiles": {
     "MSMessage": {
       "commandName": "Project",
-      "commandLineArgs": "\"TEST\"",
+      "commandLineArgs": "\"メッセージ\"",
       "nativeDebugging": false
     }
   }
