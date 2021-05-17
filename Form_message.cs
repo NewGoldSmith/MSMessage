@@ -110,6 +110,7 @@ namespace MSMessage
             Form_save_confirm form_Save_Confirm = new Form_save_confirm() { TopMost = true, };
 
             DialogResult result = form_Save_Confirm.ShowDialog(this.Location);
+            form_Save_Confirm.Dispose();
 
             if (result == DialogResult.Cancel)
             {
